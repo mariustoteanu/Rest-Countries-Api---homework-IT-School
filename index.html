@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Europe Countries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>European Countries</h1>
+    <div class="main-container">
+      <div class="flag-container">
+        <img src="" alt="" />
+      </div>
+      <div class="info-container">
+        <select class="countries" id="dropdown-country">
+          <option class="select-country italy">Italy</option>
+          <option class="select-country iceland">Iceland</option>
+          <option class="select-country ireland">Ireland</option>
+          <option class="select-country montenegro">Montenegro</option>
+          <option class="select-country bosnia">Bosnia and Herzegovina</option>
+          <option class="select-country romania">Romania</option>
+          <option class="select-country spain">Spain</option>
+          <option class="select-country russian">Russia</option>
+          <option class="select-country france">France</option>
+          <option class="select-country moldavia">Moldova</option>
+          <option class="select-country latvian">Latvia</option>
+          <option class="select-country kosovo">Kosovo</option>
+          <option class="select-country swis">Switzerland</option>
+          <option class="select-country jersey">Jersey</option>
+          <option class="select-country ukraine">Ukraine</option>
+          <option class="select-country czechia">Czechia</option>
+          <option class="select-country aland">Åland Islands</option>
+          <option class="select-country monaco">Monaco</option>
+          <option class="select-country denmark">Denmark</option>
+          <option class="select-country poland">Poland</option>
+          <option class="select-country malta">Malta</option>
+          <option class="select-country san-marino">San Marino</option>
+          <option class="select-country bulgaria">Bulgaria</option>
+          <option class="select-country sweden">Sweden</option>
+          <option class="select-country isle-of-Man">Isle of Man</option>
+          <option class="select-country netherlands">Netherlands</option>
+          <option class="select-country norway">Norway</option>
+          <option class="select-country albania">Albania</option>
+          <option class="select-country germany">Germany</option>
+          <option class="select-country hungary">Hungary</option>
+          <option class="select-country guernsey">Guernsey</option>
+          <option class="select-country svalbard-and-jan-mayen">
+            Svalbard and Jan Mayen
+          </option>
+          <option class="select-country slovakia">Slovakia</option>
+          <option class="select-country belarus">Belarus</option>
+          <option class="select-country greece">Greece</option>
+          <option class="select-country slovenia">Slovenia</option>
+          <option class="select-country finland">Finland</option>
+          <option class="select-country andorra">Andorra</option>
+          <option class="select-country belgium">Belgium</option>
+          <option class="select-country liechtenstein">Liechtenstein</option>
+          <option class="select-country austria">Austria</option>
+          <option class="select-country lithuania">Lithuania</option>
+          <option class="select-country england">United Kingdom</option>
+          <option class="select-country luxemburg">Luxembourg</option>
+          <option class="select-country vatican">Vatican City</option>
+          <option class="select-country portugal">Portugal</option>
+          <option class="select-country gibraltar">Gibraltar</option>
+          <option class="select-country cyprus">Cyprus</option>
+          <option class="select-country estonia">Estonia</option>
+          <option class="select-country feroe-island">Faroe Islands</option>
+          <option class="select-country croatia">Croatia</option>
+          <option class="select-country north-macedonia">
+            North Macedonia
+          </option>
+          <option class="select-country serbia">Serbia</option>
+        </select>
+        <section class="country-details">
+          <p>Name: <span class="name"></span></p>
+          <p>Capital: <span class="capital"></span></p>
+          <p>Population: <span class="population"></span></p>
+          <p>Currency: <span class="currencies"></span></p>
+        </section>
+      </div>
+    </div>
+    <script src="endpoints/endpoints.js"></script>
+    <script src="section/flag.js"></script>
+    <script src="section/population.js"></script>
+    <script src="section/currency.js"></script>
+    <script src="section/choselocation.js"></script>
+    <script src="section/currentlocation.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
